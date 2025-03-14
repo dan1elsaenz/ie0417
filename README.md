@@ -5,7 +5,9 @@
         <img src="images/portada.png" width="200px" alt="Imagen de portada">
     </p>
     <h3>
-        Curso IE0417 - Diseño de Software para Ingeniería.
+        Curso IE0417 - Diseño de Software para Ingeniería
+        <br />
+        I Ciclo 2025
     </h3>
     <table>
         <tr>
@@ -28,8 +30,4 @@ Este curso de Diseño de Software para Ingeniería se centra en el aprendizaje d
 Para ello la persona estudiante va a aprender a determinar los requisitos de un software a construir, realizar el análisis del sistema, transformar el análisis en el diseño de una solución concreta, y planificar y ejecutar un conjunto de pruebas que permitan verificar y validar el software construido.
 
 Además, a partir de un enfoque práctico basado en laboratorios y proyectos, la persona estudiante se familiariza con una serie de herramientas modernas y técnicas avanzadas de programación para afrontar exitosamente el desarrollo de proyectos de ingeniería de software en el ámbito profesional.
-
-## Objetivo general
-
-Aprendizaje sobre el abordaje de proyectos de ingeniería de software desde una perspectiva integral, desde la incepción del proyecto hasta su implementación, validación y mantenimiento.
 
