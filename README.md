@@ -7,11 +7,16 @@
     <h3>
         Curso IE0417 - Diseño de Software para Ingeniería.
     </h3>
-    <h4>
-        Propietario: Daniel Alberto Sáenz Obando
-    <br />
-        Carné: C37099
-    </h4>
+    <table>
+        <tr>
+            <td><b>Estudiante</b></td>
+            <td>Daniel Alberto Sáenz Obando</td>
+        </tr>
+        <tr>
+            <td><b>Carné</b></td>
+            <td>C37099</td>
+        </tr>
+    </table>
 </div>
 
 ## Descripción del curso
