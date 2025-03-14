@@ -1,9 +1,18 @@
 # ie0417
 
-Este repositorio será utilizado para el curso _IE0417 - Diseño de Software para Ingeniería_.
-
-- **Propietario:** Daniel Alberto Sáenz Obando
-- **Carné:** C37099
+<div align="center">
+    <p>
+        <img src="images/portada.png" width="200px" alt="Imagen de portada">
+    </p>
+    <h3>
+        Curso IE0417 - Diseño de Software para Ingeniería.
+    </h3>
+    <h4>
+        Propietario: Daniel Alberto Sáenz Obando
+    <br />
+        Carné: C37099
+    </h4>
+</div>
 
 ## Descripción del curso
 
