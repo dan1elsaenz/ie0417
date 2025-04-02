@@ -40,7 +40,7 @@ Originalmente fue lanzada en 2002 para rastrear y gestionar errores en el softwa
 
 Además, Atlassian menciona que la herramienta ha sido adoptada por más de 300 mil empresas en sus entornos de trabajo, lo cual evidencia su gran éxito en el mundo empresarial.
 
-<p align="right">Fuente:<a href="https://www.atlassian.com/software/jira/guides/getting-started/introduction#what-is-jira-software">What is Jira? - Atlassian</a>)</p>
+<p align="right">Fuente:<a href="https://www.atlassian.com/software/jira/guides/getting-started/introduction#what-is-jira-software">What is Jira? - Atlassian</a></p>
 
 #### Funcionalidades
 
@@ -50,7 +50,7 @@ En cuanto al flujo de trabajo, esta plataforma se organiza por medio de *issues*
 La creación de estos tickets lo suele hacer el *project manager* designado e incluye un estado que indica si la tarea está pendiente, en proceso o completada.
 Además, todos los cambios realizados en un ticket quedan documentados.
 
-<p align="right">Fuente:<a href="https://www.ionos.com/es-us/digitalguide/paginas-web/desarrollo-web/que-es-jira/">¿Qué es Jira? Todo lo que necesitas saber sobre el software de gestión de proyectos - IONOS Digital Guide</a>)</p>
+<p align="right">Fuente:<a href="https://www.ionos.com/es-us/digitalguide/paginas-web/desarrollo-web/que-es-jira/">¿Qué es Jira? Todo lo que necesitas saber sobre el software de gestión de proyectos - IONOS Digital Guide</a></p>
 
 Luego, Jira permite colaborar activamente con los miembros del equipo, distribuyendo tareas y compartiendo estados intermedios del proyecto.
 Cualquier fuente de error puede ser identificada y corregida. 
@@ -77,7 +77,7 @@ Además, respecto a utilidades dentro de la interfaz ofrece las siguientes carac
 </p>
 - Permite guardar las tareas en el *backlog* y seleccionar tareas para ser completadas durante *sprints*.
 
-<p align="right">Fuente:<a href="https://www.atlassian.com/software/jira/features">Project management features for all teams - Atlassian</a>)</p>
+<p align="right">Fuente:<a href="https://www.atlassian.com/software/jira/features">Project management features for all teams - Atlassian</a></p>
 
 #### Relación con metodologías ágiles
 
