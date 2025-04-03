@@ -249,6 +249,11 @@ Por ejemplo como publicó la página oficial de Trello, se tienen los siguientes
 
 - **Integración (Power-Up) con GitHub:** Vincular commits, pull requests e issues directamente a tarjetas.
 
+<p align="center">
+  <img width="500" src="./images/trello/kanban.png">
+</p>
+<p align="right">Imagen: <a href="https://www.atlassian.com/blog/trello/trello-for-software-development">6 ways to use Trello for software development at your enterprise - Atlassian</a></p>
+
 En relación con Scrum, Trello no soporta un manejo de *sprints* de forma predeterminada, pero nuevamente por medio de *Power-Ups* y *templates*, se puede conseguir un resultado similar. Por otro lado, para Kanban, es una herramienta ideal para equipos pequeños especialmente.
 
 En resumen, Trello es una herramienta altamente adaptable a metodologías ágiles como Scrum y Kanban, especialmente por su estructura basada en tableros, listas y tarjetas permite planificar, ejecutar y mejorar iteraciones del SDLC. Depende de la compañía o equipo qué tanto quiere implementar al flujo de trabajo.
@@ -327,6 +332,11 @@ Para que Scrum funcione, el equipo debe construir una base de confianza y vivir 
 Estos valores fortalecen la colaboración y permiten que el equipo se desenvuelva bien en entornos donde la experimentación y la mejora continua son fundamentales para la metodología en cuestión.
 
 <p align="right">Fuente: <a href="https://www.scrum.org/resources/what-scrum-module">What is Scrum? - Scrum.org</a></p>
+
+<p align="center">
+  <img width="500" src="./images/scrum/flow.png">
+</p>
+<p align="right">Imagen: <a href="https://startinfinity.com/project-management-methodologies/scrum">Scrum Methodology: An Agile Framework for Project Management - Infinity</a></p>
 
 #### Estructura del trabajo
 
@@ -445,6 +455,11 @@ Kanban es un marco visual para gestionar tareas que mejora la eficiencia y la tr
 - **WIP (Work In Progress):** Kanban establece límites al trabajo en curso (*work in progress*) por columna para evitar la sobrecarga del equipo, reducir la multitarea y mantener la eficiencia.
 
 A diferencia de la metodología Scrum, en Kanban no existen roles específicos para los miembros del equipo relacionados con la organización de la metodología.
+
+<p align="center">
+  <img width="500" src="./images/kanban/estructura.png">
+</p>
+<p align="right">Imagen: <a href="https://kissflow.com/project/agile/kanban-methodology/">Kanban Methodology: The Simplest Agile Framework - Kissflow</a></p>
 
 #### Ventajas y limitaciones
 
