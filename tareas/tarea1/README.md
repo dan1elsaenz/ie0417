@@ -61,7 +61,7 @@ Para esta primera sección de la asignación, se requiere investigar sobre herra
 
 Jira corresponde a la primera herramienta de gestión de proyectos de software que se va a analizar.
 
-Fue desarrollada por la compañía Atlassian y es ampliamente utilizada por equipos de trabajo para planear, rastrear, lanzar y dar soporte a software en todo el mundo, pues que lo emplean a través de todo el *software development life cycle*.
+Fue desarrollada por la compañía Atlassian y es ampliamente utilizada por equipos de trabajo para planear, rastrear, lanzar y dar soporte a software en todo el mundo, puesto que lo emplean a través de todo el *software development life cycle*.
 
 Originalmente fue lanzada en 2002 para rastrear y gestionar errores en el software, pero se ha convertido en una herramienta completa para proyectos que se rigen por metodologías ágiles como Scrum y Kanban, que se analizan en este trabajo.
 
@@ -112,7 +112,7 @@ Además, respecto a utilidades dentro de la interfaz ofrece las siguientes carac
 
 En cuanto a la implementación de metodologías ágiles, como se mencionó brevemente en la sección anterior de funcionalidades, Jira integra una variedad de opciones para trabajar con Scrum y Kanban, por ejemplo.
 
-Al comenzar un proyecto en Jira, los equipos pueden elegir una plantilla entre Scrum o Kanban, que ya viene preconfigurada con tableros y herramientas relevantes, lo cual evidencia desde el inicio la estrecha relación que mantiene la herramiento con metodologías ágiles.
+Al comenzar un proyecto en Jira, los equipos pueden elegir una plantilla entre Scrum o Kanban, que ya viene preconfigurada con tableros y herramientas relevantes, lo cual evidencia desde el inicio la estrecha relación que mantiene la herramienta con metodologías ágiles.
 
 - **Scrum:** Jira proporciona un *product backlog* donde se almacenan las historias de usuario e *issues*. Los equipos pueden estimar *story points* (estimación de esfuerzo para la tarea) y priorizar el trabajo. Pueden planificar el trabajo moviendo un conjunto de historias del *backlog* a un *sprint* con tiempo definido. El tablero Scrum que proporcionan visualiza el progreso del *sprint*, y durante el mismo, el equipo puede actualizar el estado de los *issues* en el tablero. Jira genera automáticamente gráficos de *burndown* para seguir el avance del sprint y calcula la velocidad basada en los puntos de historia completados en cada *sprint*, así como otras métricas relacionadas. Adicionalmente, se pueden asignar roles como *product owner*, *development team* y *Scrum master* dentro del equipo.
 
@@ -191,7 +191,7 @@ En cuanto a su relación con metodologías ágiles, se muestran los soportes par
 
 - **Scrum:** Al crear un proyecto, se puede elegir la plantilla `Scrum`, que incluye elementos como `Elemento del backlog`, `Tarea` y `Error`. Cada equipo puede definir *sprints*, contar con un backlog de *sprint* y un tablero de tareas para el seguimiento del progreso diario del equipo. Adicionalmente, se permite planificación de capacidad por *sprint* y generación de reportes como gráficos de *burnout*.
 
-<p align="right">Fuente: <a href="https://learn.microsoft.com/es-es/azure/devops/boards/work-items/guidance/agile-process-workflow?view=azure-devops">Flujo de trabajo ágil en Azure Boards</a></p>
+<p align="right">Fuente: <a href="https://learn.microsoft.com/es-es/azure/devops/boards/work-items/guidance/agile-process-workflow?view=azure-devops">Flujo de trabajo ágil en Azure Boards - Microsoft</a></p>
 
 - **Kanban:** Para el flujo continuo se pueden utilizar los tableros Kanban integrados. Se pueden configurar tableros personalizados con límites WIP (*work in progress*), diagramas de flujo acumulado, y listas de *backlog* para priorización de tareas. 
 
@@ -348,7 +348,7 @@ En Scrum existen tres roles principales:
 
 Además, hay roles auxiliares como gerentes, clientes o ejecutivos, que aunque no forman parte directa del *Scrum team*, colaboran brindando retroalimentación y seguimiento.
 
-<p align="right">Fuente: <a href="https://innevo.com/blog/metodologia-scrum#:~:text=En%20resumen%2C%20el%20proceso%20de,para%20mejorar%20continuamente%20el%20proceso.">Metodología Scrum: Roles, Procesos y Artefactos</a></p>
+<p align="right">Fuente: <a href="https://innevo.com/blog/metodologia-scrum#:~:text=En%20resumen%2C%20el%20proceso%20de,para%20mejorar%20continuamente%20el%20proceso.">Metodología Scrum: Roles, Procesos y Artefactos - Innevo</a></p>
 
 Además, en Scrum, los artefactos principales son:
 
@@ -356,7 +356,7 @@ Además, en Scrum, los artefactos principales son:
 - **Backlog de sprint:** Conjunto de tareas seleccionadas del *backlog* del producto que se desarrollarán en el *sprint* actual. Estas tareas se descomponen en subtareas más pequeñas y se asignan a los equipos según su capacidad.
 - **Incremento del producto:** Es el resultado del trabajo realizado durante un sprint, incluyendo avances de sprints anteriores. Representa una versión funcional del producto que puede entregarse al cliente. Se integra con herramientas de CI/CD para facilitar el seguimiento, publicación y control del código.
 
-<p align="right">Fuente: <a href="https://www.atlassian.com/es/agile/scrum/artifacts">Artefactos del scrum ágil</a></p>
+<p align="right">Fuente: <a href="https://www.atlassian.com/es/agile/scrum/artifacts">Artefactos del scrum ágil - Atlassian</a></p>
 
 Finalmente, se tienen las ceremonias dadas en esta metodología.
 En la tabla a continuación se resumen los principales tipos en la metodología Scrum:
@@ -368,7 +368,7 @@ En la tabla a continuación se resumen los principales tipos en la metodología 
 | **Revisión del Sprint**     | Al finalizar el sprint    | Equipo Scrum y partes interesadas                 | 45 minutos por semana de sprint   | Mostrar el trabajo completado y recibir retroalimentación.                         |
 | **Retrospectiva del Sprint**| Después de la revisión    | Scrum Master, Product Owner, Equipo de Desarrollo | 45 minutos por semana de sprint   | Reflexionar sobre lo que funcionó y lo que se puede mejorar. Plan de mejora continua.  |
 
-<p align="right">Fuente: <a href="https://www.atlassian.com/es/agile/scrum/ceremonies">Guía de metodología ágil para las reuniones de scrum</a></p>
+<p align="right">Fuente: <a href="https://www.atlassian.com/es/agile/scrum/ceremonies">Guía de metodología ágil para las reuniones de scrum - Atlassian</a></p>
 
 #### Ventajas y limitaciones
 
@@ -565,9 +565,7 @@ Entre las herramientas comúnmente usadas por los empleados de Netflix, se desta
 - **Keystone (herramienta propia):** Analiza datos de uso para asegurar que los proyectos sean relevantes para los usuarios.
 - **Spinnaker (herramienta propia):** Automatiza el despliegue de actualizaciones en las plataformas de streaming.
 
-<p align="right">Fuente: <a href="
-https://www.sprintzeal.com/blog/netflix-project-management
-">Netflix's Binge-Worthy Project Management - SprintZeal</a></p>
+<p align="right">Fuente: <a href="https://www.sprintzeal.com/blog/netflix-project-management">Netflix's Binge-Worthy Project Management - SprintZeal</a></p>
 
 #### ¿Cómo adaptan las metodologías a su cultura organizacional?
 
@@ -590,7 +588,7 @@ En su operación diaria, Netflix se mueve a gran velocidad. La mayoría de los e
 Un beneficio diferenciador de Netflix es cómo integra la retroalimentación de los usuarios de manera ágil para guiar la producción de contenido y las funcionalidades.
 A través del análisis cuantitativo de enormes volúmenes de datos de visualización y también de pruebas cualitativas, Netflix ajusta rápidamente su oferta.
 
-<p align="right">Fuente: <a href="https://www.linkedin.com/pulse/agile-content-production-netflix-case-study-david-mccreery-h0koe#:~:text=One%20notable%20example%20is%20Netflix’s,which%20emphasises%20flexibility%20and%20responsiveness">Agile Content Production at Netflix: A Case Study</a></p>
+<p align="right">Fuente: <a href="https://www.linkedin.com/pulse/agile-content-production-netflix-case-study-david-mccreery-h0koe#:~:text=One%20notable%20example%20is%20Netflix’s,which%20emphasises%20flexibility%20and%20responsiveness">Agile Content Production at Netflix: A Case Study - David McCreery</a></p>
 
 Además, a causa de los valores descritos anteriormente, se tienen altos niveles de autonomía por parte de los trabajadores, lo cual se traduce en motivación y responsabilidad por trabajar en los proyectos en cuestión.
 
