@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="es" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Módulo proyecto &#8212; documentación de Gestor de Tareas - 1.0</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=4936afed"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/translations.js?v=f85f4cfb"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="prev" title="Módulo tarea" href="tarea.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-proyecto">
+<span id="modulo-proyecto"></span><h1>Módulo <cite>proyecto</cite><a class="headerlink" href="#module-proyecto" title="Link to this heading">¶</a></h1>
+<section id="proyecto-py">
+<h2>proyecto.py<a class="headerlink" href="#proyecto-py" title="Link to this heading">¶</a></h2>
+<p>Este módulo define la clase Proyecto, que agrupa un conjunto de tareas personales.
+Permite agregar, listar, buscar y filtrar tareas según su estado de finalización o vencimiento.</p>
+<p>Este módulo trabaja en conjunto con <cite>tarea.py</cite>, utilizando la clase Tarea como unidad de organización.</p>
+</section>
+<dl class="py class">
+<dt class="sig sig-object py" id="proyecto.Proyecto">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">proyecto.</span></span><span class="sig-name descname"><span class="pre">Proyecto</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nombre</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#proyecto.Proyecto" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Representa un proyecto personal que contiene múltiples tareas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>nombre</strong> (<em>str</em>) – Nombre del proyecto</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="proyecto.Proyecto.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nombre</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#proyecto.Proyecto.__init__" title="Link to this definition">¶</a></dt>
+<dd><p>Inicializa un nuevo proyecto con un nombre y una lista vacía de tareas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>nombre</strong> – Nombre del proyecto</p>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proyecto.Proyecto.agregar_tarea">
+<span class="sig-name descname"><span class="pre">agregar_tarea</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tarea</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="tarea.html#tarea.Tarea" title="tarea.Tarea"><span class="pre">Tarea</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#proyecto.Proyecto.agregar_tarea" title="Link to this definition">¶</a></dt>
+<dd><p>Agrega una nueva tarea al proyecto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>tarea</strong> – Objeto Tarea a agregar</p>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proyecto.Proyecto.buscar_tarea">
+<span class="sig-name descname"><span class="pre">buscar_tarea</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">titulo</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="tarea.html#tarea.Tarea" title="tarea.Tarea"><span class="pre">Tarea</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></span><a class="headerlink" href="#proyecto.Proyecto.buscar_tarea" title="Link to this definition">¶</a></dt>
+<dd><p>Busca una tarea por su título exacto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>titulo</strong> – Título de la tarea a buscar</p>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Tarea correspondiente o None si no se encuentra</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="tarea.html#tarea.Tarea" title="tarea.Tarea">Tarea</a> | None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proyecto.Proyecto.listar_tareas">
+<span class="sig-name descname"><span class="pre">listar_tareas</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#proyecto.Proyecto.listar_tareas" title="Link to this definition">¶</a></dt>
+<dd><p>Lista todas las tareas del proyecto como strings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Devuelve<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Lista de descripciones de tareas</p>
+</dd>
+<dt class="field-even">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-even"><p>list[str]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proyecto.Proyecto.tareas_pendientes">
+<span class="sig-name descname"><span class="pre">tareas_pendientes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="tarea.html#tarea.Tarea" title="tarea.Tarea"><span class="pre">Tarea</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#proyecto.Proyecto.tareas_pendientes" title="Link to this definition">¶</a></dt>
+<dd><p>Devuelve una lista de tareas que no han sido completadas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Devuelve<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Lista de tareas pendientes</p>
+</dd>
+<dt class="field-even">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-even"><p>list[<a class="reference internal" href="tarea.html#tarea.Tarea" title="tarea.Tarea">Tarea</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="proyecto.Proyecto.tareas_vencidas">
+<span class="sig-name descname"><span class="pre">tareas_vencidas</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="tarea.html#tarea.Tarea" title="tarea.Tarea"><span class="pre">Tarea</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#proyecto.Proyecto.tareas_vencidas" title="Link to this definition">¶</a></dt>
+<dd><p>Devuelve una lista de tareas cuya fecha límite ha pasado y no han sido completadas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Devuelve<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Lista de tareas vencidas</p>
+</dd>
+<dt class="field-even">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-even"><p>list[<a class="reference internal" href="tarea.html#tarea.Tarea" title="tarea.Tarea">Tarea</a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Gestor de Tareas</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navegación</h3>
+<p class="caption" role="heading"><span class="caption-text">Navegación</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="main.html">Módulo <cite>main</cite></a></li>
+<li class="toctree-l1"><a class="reference internal" href="tarea.html">Módulo <cite>tarea</cite></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Módulo <cite>proyecto</cite></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#proyecto-py">proyecto.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#proyecto.Proyecto"><code class="docutils literal notranslate"><span class="pre">Proyecto</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="tarea.html" title="capítulo anterior">Módulo <cite>tarea</cite></a></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Daniel Sáenz.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/proyecto.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
