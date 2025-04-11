@@ -195,7 +195,19 @@ Los productos son almacenados en memoria mediante un `std::vector`.
 
 La documentación generada con la herramienta Doxygen se encuentra en el enlace a continuación: [Ver documentación](https://laboratorio2-doxygen-ie0417.netlify.app)
 
-En la barra lateral izquierda, se accede a la documentación por clases o por archivos.
+Para generar la documentación, primero es necesario asegurarse de tener el archivo `Doxyfile` de configuración de la herramienta Doxygen.
+Acá se especifican los parámetros de generación.
+Por ejemplo, se colocó una página principal al generar el *html*, a través de Markdown (ver archivo `mainpage.md`).
+
+Luego, se ejecuta el comando:
+
+```
+doxygen Doxyfile
+```
+
+Esto genera la documentación en el directorio `docs/` como se especificó en el `Doxyfile`.
+
+Para hostear la página web estática, se utilizó la plataforma Netlify en ambos proyectos.
 
 ## Proyecto en Python: Gestor de Tareas Personales
 
@@ -227,9 +239,31 @@ Las tareas tienen una fecha límite y un estado de finalización, y se gestionan
 
 La documentación generada con la herramienta Sphinx se encuentra en el enlace a continuación: [Ver documentación](https://laboratorio2-sphinx-ie0417.netlify.app/)
 
+Para la generación de la documentación en Sphinx, después de haber instalado el paquete con `pip`, se ejecuta el siguiente comando en el directorio `laboratorio2/ejercicio2`:
+
+```
+sphinx-quickstart docs
+```
+
+Acá se rellena información general sobre el proyecto.
+Luego, se ejecutan los siguientes comandos para que la herramienta genere el *html*:
+
+```
+cd docs
+make html
+```
+
+Esto genera la documentación de interés en el directorio `laboratorio2/ejercicio2/docs/build/html`.
+
+Se personalizaron las pestañas de la documentación en la página web para mayor legibilidad.
+Se agregaron los siguientes archivos como secciones:
+
+- `main.rst`
+- `tarea.rst`
+- `proyecto.rst`
+
 ## Experiencia utilizando Doxygen y Sphinx
 
 - **Doxygen** permite una generación rápida de documentación en C++ mientras el código esté bien comentado (según el formato requerido para procesar la documentación). La generación automática por medio de un `Doxyfile` fue clara y sencilla de realizar.
 - **Sphinx** es una herramienta amplia y con muchas funcionalidades para Python, especialmente porque permite el uso de extensiones para ampliar su alcance. Requiere de configuración inicial, pero el resultado es profesional y fácil de navegar.
 - Ambas herramientas fomentan la escritura de código limpio y bien documentado.
-
