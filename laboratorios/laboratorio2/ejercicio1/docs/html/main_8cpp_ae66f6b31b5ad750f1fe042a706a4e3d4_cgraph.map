@@ -1,0 +1,15 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,55,155"/>
+<area shape="rect" id="Node000002" href="$class_inventario.html#a6f9d7ba04452043e0dc45e6f26e5cdf1" title="Actualiza la cantidad de un producto." alt="" coords="106,5,300,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,127,59,84,78,60,101,40,108,36,111,40,104,44,82,64,63,87,39,130"/>
+<area shape="rect" id="Node000003" href="$class_inventario.html#a2a0280436b6419560f5c64d359509df0" title="Agrega un producto al inventario." alt="" coords="113,55,294,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="45,127,70,107,101,89,116,83,118,88,104,94,73,112,48,131"/>
+<area shape="rect" id="Node000004" href="$class_inventario.html#a1feae56f7d59376915dda3e9f2395b8b" title="Busca productos por categoría." alt="" coords="103,104,304,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="55,136,96,130,97,135,55,141"/>
+<area shape="rect" id="Node000005" href="$class_inventario.html#ae247edc0255bacb93721b6b125ec38b0" title="Elimina un producto por ID." alt="" coords="112,153,295,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="55,143,97,149,96,154,55,148"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#ac0aca0f34a52fbe7527a03517bc3347e" title="Muestra el menú principal del programa." alt="" coords="155,203,252,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="48,153,74,172,104,189,141,202,139,207,102,194,71,176,45,157"/>
+<area shape="rect" id="Node000007" href="$class_inventario.html#ad9279a52e07100ec9edd7164a2c9fca6" title="Muestra todos los productos del inventario." alt="" coords="109,252,298,278"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="39,154,64,196,82,219,104,239,111,243,108,247,101,243,78,223,59,199,35,157"/>
+</map>
