@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Notas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 40px;
+        }
+        h1 {
+            color: #333;
+        }
+        .nota {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 6px solid #4CAF50;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .titulo {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            color: #4CAF50;
+        }
+        .contenido {
+            margin-bottom: 10px;
+        }
+        .info {
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <a href="{% url 'crear_nota' %}">Crear nueva nota</a>
+    <h1>Mis Notas</h1>
+
+    {% if notas %}
+        <p>Se encontró {{ notas.count }} nota(s){{ notas.count|pluralize }}.</p>
+        {% for nota in notas %}
+            <div class="nota">
+                <div class="titulo">{{ nota.titulo }}</div>
+                <div class="contenido">{{ nota.contenido }}</div>
+                <div class="info">ID: {{ nota.id }}</div>
+                <form action="{% url 'eliminar_nota' nota.id %}" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit" onclick="return confirm('¿Estás seguro de que deseas eliminar esta nota?');">Eliminar</button>
+                </form>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No hay notas registradas aún.</p>
+    {% endif %}
+</body>
+</html>
