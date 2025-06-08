@@ -22,8 +22,8 @@ jobs:
 
     - name: Build and run tests
       run: |
-        mkdir -p Sesiones/Sesion16/unit_testing/build
-        cd Sesiones/Sesion16/unit_testing/build
+        mkdir -p laboratorios/laboratorio8/unit_testing/build
+        cd laboratorios/laboratorio8/unit_testing/build
         cmake ..
         make
         ./test_calculator
